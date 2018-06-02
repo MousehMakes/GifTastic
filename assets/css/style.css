@@ -1,0 +1,129 @@
+html {
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+    background: url('../images/background-giftastic.png') no-repeat center center fixed;
+    margin: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+img {
+    height: 200px;
+}
+div {
+    margin: 10px;
+    display: inline-block;
+}
+button {
+    margin: 5px;
+    
+}
+
+#images {
+    position: absolute;
+    color: #b5c2fd;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 5px;
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+    right: 31%;
+    top: 16%;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 25px;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    display: block;
+    overflow: auto;
+    background: rgba(85, 53, 204, 0.7);
+}
+
+
+
+#textForm {
+
+    align-content: center;
+    text-align: center;
+    background: rgba(85, 53, 204, 0.7);
+
+    left: 70%;
+    right: 1%;
+
+    margin: auto;
+    max-height: 100%;
+    overflow: auto;
+    top: 1%;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 5px;
+    position: absolute;
+    background: rgba(85, 53, 204, 0.7);
+    bottom: 85%;
+    min-height: 14%;
+    color: #b5c2fd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#buttonDiv {
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#container1 {
+    margin: auto;
+    max-height: 100%;
+    overflow: auto;
+    top: 1%;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 5px;
+    line-height: 14%;
+    position: absolute;
+    background: rgba(85, 53, 204, 0.7);
+    bottom: 85%;
+    min-height: 14%;
+
+    right: 31%;
+    left: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container2 {
+    align-items: center;
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
