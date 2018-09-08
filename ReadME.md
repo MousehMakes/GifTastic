@@ -1,0 +1,1 @@
+This project uses the Giphy API to display a set number of gifs on the page. The gifs are randomly selected with the subject being the word displayed on the button. By default, the buttons are set to be the main characters of My Little Pony: Friendship Is Magic. Users can add buttons that show whatever subject they desire.
